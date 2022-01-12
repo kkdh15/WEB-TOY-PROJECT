@@ -32,7 +32,7 @@ text-align: center;
 input {
 border: rgb(0,0,0,.2) 1px solid;
 width: 503px;
-height: 30px;
+height: 60px;
 font-size: 18px;
 }
 
@@ -46,16 +46,12 @@ input::placeholder {
 }
 
 #id {
-width: 503px;
-height: 60px;
 border-bottom-width: 0.5px;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 }
 
 #password {
-width: 503px;
-height: 60px;
 border-top-width: 0.5px;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
@@ -78,6 +74,7 @@ font-weight: bold;
 
 #login:hover {
     cursor:pointer;
+    background-color: #4d53fd;
 }
 
 div {
